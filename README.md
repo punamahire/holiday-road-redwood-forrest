@@ -1,4 +1,5 @@
 # Holiday Road Redwood Forest
+
 •	The project was intended towards building a web application that allows a user to plan a trip that consists of a National Park, a bizarrerie, and an eatery.
 •	In the application, when the user selects a state, we call the National Parks Services API to populate a dropdown of parks, and when they select a park, we use the Open Weather API to generate a 5 day weather forecast which allows the user to see how the weather would be in the near-future at the park they choose. We also used third party APIs to populate the dropdowns for bizarreries and eateries. Once the dropdowns are populated with the data from the APIs the user can select options from each dropdown and details of all three selections will be displayed on the main page. Once a user has selected all three options, they can save their trip to a local database using JSON-Server and view their saved trips in the aside bar.
 •	The user can also search for national parks, bizarreries and eateries in the search box provided and related information will be displayed in a dialog box.
